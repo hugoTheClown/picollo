@@ -16,4 +16,5 @@ A small photoBooth project. I know there are plenty of others and also this is t
 
 4/ Clone this repo somewhere
 
-5/ Install Fpdf -> <pre>pip install fpdf</pre>
+5/ Install Fpdf -> <pre>pip install fpdf2</pre>
+  for more info -> https://pyfpdf.github.io/fpdf2/index.html
