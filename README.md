@@ -1,5 +1,5 @@
 # picollo
-A small photoBooth project. I know there are plenty of other and this is the right place to admit, some of gave inspiration to Picollo. The main reason to create next one was that almost none of other photoBooth sends taken pictures directly to the printer. And also i am too lazy to bend other people code ....
+A small photoBooth project. I know there are plenty of others and also this is the right moment to admit, some of them gave inspiration to Picollo. The main reason to create next one was that almost none of other photoBooth sends taken pictures directly to the printer. And also i am too lazy to bend other people code ....
 
 1/ Have a Raspberry - mine is Pi 3, B+
 
