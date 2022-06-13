@@ -47,7 +47,7 @@ def showOverlay(k):
     timing[k].alpha = 16    #128
 
 conn = cups.Connection()
-n = -5
+n = -3
 
 imx = 107
 imy = 85
