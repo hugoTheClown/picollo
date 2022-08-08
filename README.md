@@ -3,7 +3,7 @@ A small photoBooth project. I know there are plenty of others and also this is t
 
 1/ Have a Raspberry - mine is Pi 3, B+
 
-2/ Have an installed Rapsbery :D - you can re-use the one from section 1. Raspbian is just perfect
+2/ Have an installed Rapsbery :D - you can re-use the one from section 1. Raspbian is just perfect. Currently Buster is the most recommended version. Bullseye has serious troubles with Raspberry official screen (5" + 7"). Bullseye also has troubles with "older" printer. It might have changed to your "now".
 
 3/ Have any display you want. in my case is 5" raspberry LCD. Check manufacturer recomendations.   
   <b>e.g. waveshare -> add to /boot/config.txt</b>  
