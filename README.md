@@ -16,5 +16,26 @@ A small photoBooth project. I know there are plenty of others and also this is t
 
 4/ Clone this repo somewhere
 
-5/ Install Fpdf -> <pre>pip install fpdf2</pre>
+5/ Install Fpdf -> <pre>pip3 install fpdf2</pre>
   for more info -> https://pyfpdf.github.io/fpdf2/index.html
+  
+6/ create a shell script to disable screensaver and run your script
+e.g. 
+<pre>sudo nano picollo.sh</pre>
+<pre>
+xset s 0
+xset -dpms
+cd /home/pi/picollo
+python3 ./picollo.py
+</pre>
+ctrl+x (Y as yes to save)
+
+7/ make shell script executable
+<pre>chmod a+x picollo.sh</pre>
+
+8/ add your script into crontab, so it gets running after reboot
+<pre>crontab -e</pre>
+add a line at the end
+<pre>@reboot /home/pi/picollo/picollo.sh</pre>
+
+
